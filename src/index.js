@@ -54,19 +54,21 @@ function Menu() {
 }
 
 function Home() {
-      return   <Container>
-    <List bulleted>
-    </List>
-<div class="ui inverted segment">
-  <h1>Geometry Calculator</h1>
-  <div class="ui inverted pointing secondary menu">
-  </div>
-</div>
+      return   
+  <Container>
+      <List bulleted>
+      </List>
+        <div class="ui inverted segment">
+          <h1>Geometry Calculator</h1>
+           <div class="ui inverted pointing secondary menu">
+           </div>
+        </div>
   </Container>
   } 
 
 function About() {
-      return   <Container>
+      return   
+      <Container>
     <List bulleted>
     </List>
 <div class="ui inverted segment">
