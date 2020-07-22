@@ -90,12 +90,11 @@ function Users() {
   <div class="ui inverted pointing secondary menu">
   </div>
 </div>
-<p>xcvxcvxcv</p>
+  <p>xcvxcvxcv</p>
   <ResultComponent result={this.state.result}/>
   <KeyPadComponent onClick={this.onClick}/>
   </Container>
   } 
-
 
 // main.js
 const root = document.querySelector('root');
